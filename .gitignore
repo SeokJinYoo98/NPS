@@ -12,6 +12,8 @@ Thumbs.db
 [Mm]emoryCaptures/
 UserSettings/
 AssetBundles/
+BuildReport/
+CrashReports/
 sysinfo.txt
 
 # --- Addressables/캐시 ---
@@ -21,6 +23,7 @@ ServerData/
 # --- 패키지/임시 산출물 ---
 *.unitypackage
 *.log
+/Packages/com.unity.package-manager/
 
 # --- IDE/프로젝트 파일 ---
 .vs/
@@ -40,6 +43,12 @@ ServerData/
 *.tmp
 *.svd
 *.booproj
+*.vsconfig
+
+# Unity Editor layout/preferences
+*.dwlt
+*.wlt
+*.layout
 
 # --- 모바일 빌드 산출물 ---
 *.apk
